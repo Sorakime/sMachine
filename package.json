@@ -1,0 +1,15 @@
+{
+  "name": "sMachine",
+  "version": "1.0.0",
+  "description": "仮想環境構築アプリもどき",
+  "main": "./src/boot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "npx electron ."
+  },
+  "author": "Sorakime<sorakime-net-activities@outook.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^26.2.1"
+  }
+}

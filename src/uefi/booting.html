@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>sMachine</title>
+</head>
+<body>
+  <h1>sMachine</h1>
+  <p>Booting: <span id="booting"></span></p>
+  <p>Loading...</p>
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      position: fixed;
+      top: 50%;
+      left: 0;
+      right: 0;
+      transform: translateY(-50%);
+    }
+    h1 {
+      margin-top: 0;
+    }
+  </style>
+  <script>
+    function updateOsName(name) {
+      document.getElementById('booting').innerText = name;
+    }
+  </script>
+</body>
+</html>
